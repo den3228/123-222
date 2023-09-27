@@ -1,0 +1,127 @@
+.list {
+    list-style: none;
+}
+
+
+.link {
+    text-decoration: none;
+}
+/*===================== COMPONENTS =====================*/
+.logo-first {
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 800;
+line-height: 1.17px; /* 116.667% */
+letter-spacing: 0.54px;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+    
+.logo-second {
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 800;
+line-height: 1.17px; /* 116.667% */
+letter-spacing: 0.54px;
+text-transform: uppercase;
+color: #2E2F42;
+}
+
+.third-title {
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2; /* 120% */
+letter-spacing: 0.4px;
+color: #2E2F42;
+}
+
+.description {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.32px;
+color: #434455
+}
+/*===================== HEADER =====================*/
+.menu-link {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.32px;
+color: #2E2F42;
+}
+
+.contact-phone-number {
+
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.32px;
+color: #434455;
+}
+
+.contact-email {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.32px;
+color: #434455;
+}
+
+/*===================== HERO =====================*/
+.modal-btn {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.64px;
+cursor: pointer;
+
+/*color: #FFFFFF;*/
+}
+
+.main-title {
+font-family: 'Roboto', sans-serif;
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07; /* 107.143% */
+letter-spacing: 1.12px;
+
+/*color: #FFFFFF;*/
+}
+
+.about {
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2; /* 120% */
+letter-spacing: 0.4px;
+
+color: #2E2F42;
+}
+
+.about-description {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.32px;
+
+color: #434455;
+}
+
+.second-title {
+font-family: 'Roboto', sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11; /* 111.111% */
+letter-spacing: 0.72px;
+text-transform: capitalize;
+
+color: #2E2F42;
+}
