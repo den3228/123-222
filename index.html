@@ -10,38 +10,46 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- HEADER-->
     <header class="page-header">
-      <nav class="page-nav">
-        <a class="logo-first link" href="">Web</a>
-        <a class="logo-second link" href="">Studio</a>
-        <ul class="menu list">
-          <li class="menu-item">
-            <a class="menu-link link" href="">Studio</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="">Portfolio</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <a class="contact-phone-number" href="tel:+110001111111"
-        >+11 (000) 111-11-11</a
-      >
-      <a class="contact-email" href="mailto:info@devstudio.com"
-        >info@devstudio.com</a
-      >
+      <div class="wrapper page-header-wrapper">
+        <nav class="page-nav">
+          <a class="logo-first link" href="">Web</a>
+          <a class="logo-second link" href="">Studio</a>
+          <ul class="menu list">
+            <li class="menu-item">
+              <a class="menu-link link" href="">Studio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="contact-phone-number link" href="tel:+110001111111"
+          >+11 (000) 111-11-11</a
+        >
+        <a class="contact-email link" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+      </div>
     </header>
     <main>
       <!-- HERO-->
-      <section>
+      <section class="wrapper section">
         <h1 class="main-title">Effective Solutions for Your Business</h1>
-        <button class="modal-btn" type="button">Order Service</button>
+        <button class="hero-btn" type="button">Order Service</button>
+      </section>
+      <section class="wrapper section">
         <ul class="list">
           <li class="about">
             Strategy
@@ -73,7 +81,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="wrapper section">
         <h2 class="second-title">What are we doing</h2>
         <ul class="list">
           <li>
@@ -107,7 +115,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="wrapper section">
         <h2 class="second-title">Our Team</h2>
         <ul class="list">
           <li>
@@ -161,7 +169,7 @@
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="wrapper">
       <a class="logo-first link" href="">Web</a>
       <a class="logo-second link" href="">Studio</a>
       <p class="description">

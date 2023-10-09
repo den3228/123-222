@@ -1,34 +1,78 @@
+:root {
+    --accent-color: #4D5AE5;
+    --most-used-color: #2E2F42;
+    --less-used-color: #434455;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
 .list {
     list-style: none;
 }
-
 
 .link {
     text-decoration: none;
 }
 
 body {
-font-family: 'Roboto', sans-serif;
+font-family: var(--primary-font);
 }
+
+.wrapper {
+    width: 1470px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 /*===================== COMPONENTS =====================*/
 .logo-first {
-font-family: 'Raleway', sans-serif;
+font-family: var(--secondary-font);
 font-size: 18px;
 font-weight: 800;
 line-height: 1.17px; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
-color: #4D5AE5;
+color: var(--accent-color);
 }
     
 .logo-second {
-font-family: 'Raleway', sans-serif;
+ font-family: var(--secondary-font);
 font-size: 18px;
 font-weight: 800;
 line-height: 1.17px; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
-color: #2E2F42;
+color: var(--most-used-color);
 }
 
 .third-title {
@@ -36,7 +80,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2; /* 120% */
 letter-spacing: 0.4px;
-color: #2E2F42;
+color: var(--most-used-color);
 }
 
 .description {
@@ -44,21 +88,42 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.32px;
-color: #434455
+color: var(--less-used-color);
 }
+
+.modal-btn {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 24px;
+    padding-left: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.64px;
+    color: var(--accent-color);
+    border-radius: 4px;
+    }
 
 .modal-btn:hover,
 .modal-btn:focus {
-    background-color: #4D5AE5;
+    background-color: var(--accent-color);
     color: #E7E9FC
 }
+
+.contact-phone-number:hover,
+.contact-phone-number:focus,
+.contact-email:hover,
+.contact-email:focus {
+color: var(--accent-color);
+}
+
 /*===================== HEADER =====================*/
 .menu-link {
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.32px;
-color: #2E2F42;
+color: var(--most-used-color);
 }
 
 .contact-phone-number {
@@ -66,7 +131,9 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.32px;
-color: #434455;
+color: var(--less-used-color);
+margin-left: auto;
+margin-right: 40px;
 }
 
 .contact-email {
@@ -74,26 +141,64 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.32px;
-color: #434455;
+color: var(--less-used-color);
+
 }
 
-.modal-btn {
+.page-header {
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+}
+
+.page-header-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: flex;
+}
+
+.logo-second {
+    margin-right: 76px;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+/*===================== HERO =====================*/
+
+.hero-btn {
+padding-top: 16px;
+padding-bottom: 16px;
+padding-right: 32px;
+padding-left: 32px;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.64px;
-cursor: pointer;
-
-color: #4D5AE5;
+color: #E7E9FC;
+background-color: var(--accent-color);
+border-radius: 4px;
 }
-
-/*===================== HERO =====================*/
 
 .main-title {
 font-size: 56px;
 font-weight: 700;
 line-height: 1.07; /* 107.143% */
 letter-spacing: 1.12px;
+text-align: center;
+padding-top: 188px;
+padding-right: 472px;
+padding-left: 472px;
+padding-bottom:;
 
 /*color: #FFFFFF;*/
 }
@@ -103,8 +208,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2; /* 120% */
 letter-spacing: 0.4px;
-
-color: #2E2F42;
+color: var(--most-used-color);
 }
 
 .about-description {
@@ -112,8 +216,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.32px;
-
-color: #434455;
+color: var(--less-used-color);
 }
 
 .second-title {
@@ -122,6 +225,5 @@ font-weight: 700;
 line-height: 1.11; /* 111.111% */
 letter-spacing: 0.72px;
 text-transform: capitalize;
-
-color: #2E2F42;
+color: var(--most-used-color);
 }
