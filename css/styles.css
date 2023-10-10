@@ -52,6 +52,8 @@ font-family: var(--primary-font);
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
+    padding-right: 156px;
+    padding-left: 156px;
 }
 
 /*===================== COMPONENTS =====================*/
@@ -72,14 +74,6 @@ font-weight: 800;
 line-height: 1.17px; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
-color: var(--most-used-color);
-}
-
-.third-title {
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2; /* 120% */
-letter-spacing: 0.4px;
 color: var(--most-used-color);
 }
 
@@ -199,8 +193,19 @@ padding-top: 188px;
 padding-right: 472px;
 padding-left: 472px;
 padding-bottom:;
-
 /*color: #FFFFFF;*/
+}
+
+.second-title {
+padding-bottom: 72px;
+padding-top: 120px;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11; /* 111.111% */
+letter-spacing: 0.72px;
+text-transform: capitalize;
+text-align: center;
+color: var(--most-used-color);
 }
 
 .about {
@@ -211,19 +216,62 @@ letter-spacing: 0.4px;
 color: var(--most-used-color);
 }
 
-.about-description {
+.description {
 font-size: 16px;
 font-weight: 400;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.32px;
+text-align: center;
 color: var(--less-used-color);
 }
 
-.second-title {
-font-size: 36px;
-font-weight: 700;
-line-height: 1.11; /* 111.111% */
-letter-spacing: 0.72px;
-text-transform: capitalize;
+.what-we-do {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.third-title {
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2; /* 120% */
+letter-spacing: 0.4px;
+text-align: center;
 color: var(--most-used-color);
+}
+
+.employees {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.about-description {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.employees-card-content {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.employees-card {
+    flex-basis: calc((100% - 96px) / 4);
+}
+
+.portfolio-card-content {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.portfolio-card {
+    flex-basis: calc((100% - 72px) / 3);
 }
