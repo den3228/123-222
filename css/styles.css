@@ -169,6 +169,13 @@ color: var(--less-used-color);
 
 /*===================== HERO =====================*/
 
+
+
+.section-hero {
+    background-image: url("../images/hero/background.jpg");
+    background-size: cover;
+}
+
 .hero-btn {
 padding-top: 16px;
 padding-bottom: 16px;
@@ -246,10 +253,8 @@ color: var(--most-used-color);
     gap: 30px;
 }
 
-.about-description {
+.about-description-list {
     display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
 }
 
 .portfolio {
@@ -274,4 +279,8 @@ color: var(--most-used-color);
 
 .portfolio-card {
     flex-basis: calc((100% - 72px) / 3);
+}
+
+.customers-list {
+    display: flex;
 }
